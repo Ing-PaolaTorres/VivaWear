@@ -8,7 +8,7 @@ import ProductDetail from "./components/ProductDetail";
 
 function App() {
   return (
-    <Router basename="/Ecommerce-Vivawear">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
