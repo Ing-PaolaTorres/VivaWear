@@ -3,7 +3,11 @@ export const products = [
         id: 1,
         name: "T-Shirt Minnie",
         price: "$48.000",
-        description: "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+        description:
+            `Nuestras camisetas están elaboradas en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+            Personalízalas con el color, diseño o personaje que más te inspire: un nombre, un dibujo o ese detalle que las hace únicas.
+            Hechas para jugar, explorar y brillar con su propio estilo.
+            Porque vestirse también es una forma de contar su historia.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
             "/assets/images/product-1.jpeg",
@@ -15,7 +19,11 @@ export const products = [
         id: 2,
         name: "T-Shirt Mickey",
         price: "$48.000",
-        description: "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+        description:
+            `Nuestras camisetas están elaboradas en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+            Personalízalas con el color, diseño o personaje que más te inspire: un nombre, un dibujo o ese detalle que las hace únicas.
+            Hechas para jugar, explorar y brillar con su propio estilo.
+            Porque vestirse también es una forma de contar su historia.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
             "/assets/images/product-4.jpeg",
@@ -27,7 +35,11 @@ export const products = [
         id: 3,
         name: "T-Shirt Friends",
         price: "$48.000",
-        description: "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+        description:
+            `Nuestras camisetas están elaboradas en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+            Personalízalas con el color, diseño o personaje que más te inspire: un nombre, un dibujo o ese detalle que las hace únicas.
+            Hechas para jugar, explorar y brillar con su propio estilo.
+            Porque vestirse también es una forma de contar su historia.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
             "/assets/images/product-7.jpeg",
@@ -38,7 +50,9 @@ export const products = [
         id: 4,
         name: "Conjunto Minnie - Sudadera",
         price: "$93.000",
-        description: "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+        description:
+            `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+            Personalízalas con el color, diseño o personaje que más te guste.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
             "/assets/images/product-8.jpeg",
@@ -49,7 +63,9 @@ export const products = [
         id: 5,
         name: "Conjunto Minnie - Short",
         price: "$85.000",
-        description: "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+        description:
+            `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+            Personalízalas con el color, diseño o personaje que más te guste.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
             "/assets/images/product-9.jpeg",

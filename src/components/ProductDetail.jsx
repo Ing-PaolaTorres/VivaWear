@@ -54,7 +54,7 @@ const ProductDetail = () => {
 
           <div className="mb-6">
             <h2 className="text-lg font-semibold mb-2">Descripción</h2>
-            <p className="text-gray-700 text-sm sm:text-base">{product.description}</p>
+            <p className="text-gray-700 text-sm sm:text-base text-justify">{product.description}</p>
           </div>
 
           <div className="mb-6">

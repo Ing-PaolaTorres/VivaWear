@@ -58,7 +58,8 @@ const Navbar = () => {
 
   const onCategoryChange = (categoryLabel) => {
     setSelectedCategory(categoryLabel); // Actualiza la categoría seleccionada
-    console.log("Categoría seleccionada:", categoryLabel); // Esto puedes reemplazarlo con lógica para filtrar productos, etc.
+    setIsOpen(false);
+    setActiveCategory(null);
   };
 
   return (
