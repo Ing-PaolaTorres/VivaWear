@@ -14,75 +14,43 @@ const carouselImages = [
 const products = [
   {
     id: 1,
-    name: "Camiseta Rosa",
-    price: "$12.990",
-    img: "/Ecommerce-Vivawear/assets/images/product-1.jpeg",
+    name: "T-Shirt Minnie",
+    price: "$48.000",
+    img: "/assets/images/product-1.jpeg",
     description:
-      "Camiseta de algodón suave en tono rosa pastel. Ideal para el día a día con total comodidad.",
+      "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
   },
   {
     id: 2,
-    name: "Pantalón Azul",
-    price: "$18.500",
-    img: "/Ecommerce-Vivawear/assets/images/product-2.jpeg",
+    name: "T-Shirt Mickey",
+    price: "$48.000",
+    img: "/assets/images/product-4.jpeg",
     description:
-      "Pantalón liviano y elástico color azul cielo. Perfecto para jugar y moverse sin límites.",
+      "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
   },
   {
     id: 3,
-    name: "Vestido Amarillo",
-    price: "$22.000",
-    img: "/Ecommerce-Vivawear/assets/images/product-3.jpeg",
+    name: "T-Shirt Friends",
+    price: "$48.000",
+    img: "/assets/images/product-7.jpeg",
     description:
-      "Vestido veraniego amarillo con detalles florales. Fresco, cómodo y lleno de alegría.",
+      "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
   },
   {
     id: 4,
-    name: "Camiseta Rosa",
-    price: "$12.990",
-    img: "/Ecommerce-Vivawear/assets/images/product-4.jpeg",
+    name: "Conjunto Minnie - Sudadera",
+    price: "$93.000",
+    img: "/assets/images/product-8.jpeg",
     description:
-      "Camiseta ligera y transpirable con un diseño adorable. Combina con cualquier pantalón o falda.",
+      "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
   },
   {
     id: 5,
-    name: "Pantalón Azul",
-    price: "$18.500",
-    img: "/Ecommerce-Vivawear/assets/images/product-5.jpeg",
+    name: "Conjunto Minnie - Short",
+    price: "$85.000",
+    img: "/assets/images/product-9.jpeg",
     description:
-      "Confeccionado en tela resistente, este pantalón azul garantiza confort en cada movimiento.",
-  },
-  {
-    id: 6,
-    name: "Vestido Amarillo",
-    price: "$22.000",
-    img: "/Ecommerce-Vivawear/assets/images/product-6.jpeg",
-    description:
-      "Vestido ligero con corte clásico y tejido suave. Ideal para días soleados y ocasiones especiales.",
-  },
-  {
-    id: 7,
-    name: "Camiseta Rosa",
-    price: "$12.990",
-    img: "/Ecommerce-Vivawear/assets/images/product-7.jpeg",
-    description:
-      "Diseño tierno en tono rosa claro. Tela de alta calidad para mantener a tu pequeño fresco.",
-  },
-  {
-    id: 8,
-    name: "Pantalón Azul",
-    price: "$18.500",
-    img: "/Ecommerce-Vivawear/assets/images/product-8.jpeg",
-    description:
-      "Pantalón ajustable con cintura elástica. Ideal para combinar con camisetas o suéteres.",
-  },
-  {
-    id: 9,
-    name: "Vestido Amarillo",
-    price: "$22.000",
-    img: "/Ecommerce-Vivawear/assets/images/product-9.jpeg",
-    description:
-      "Vestido de algodón amarillo pastel, cómodo y encantador para cualquier ocasión.",
+      "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
   },
 ];
 
@@ -105,7 +73,7 @@ const Home = () => {
       <div className="fixed right-3 bottom-24 flex flex-col gap-3 z-50">
         {/* WhatsApp */}
         <a
-          href="https://wa.me/573001234567?text=¡Hola!%20Quiero%20más%20información%20sobre%20sus%20productos."
+          href="https://wa.me/573043467419?text=¡Hola!%20Quiero%20más%20información%20sobre%20sus%20productos."
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#25D366] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
@@ -115,7 +83,7 @@ const Home = () => {
 
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/vivawear/"
+          href="https://www.instagram.com/vivawear_col?igsh=MW8xdXVtNWJ0OXE2ZA%3D%3D&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
@@ -125,7 +93,7 @@ const Home = () => {
 
         {/* Facebook */}
         <a
-          href="https://www.facebook.com/vivawear/"
+          href="https://www.facebook.com/share/1BnVjxEAn1/?mibextid=wwXIfr"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#1877F2] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"

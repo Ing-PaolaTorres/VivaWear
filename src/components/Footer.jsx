@@ -27,19 +27,19 @@ const sections = [
 const socialLinks = [
   {
     icon: <FaFacebookF size={18} />,
-    href: "#",
+    href: "https://www.facebook.com/share/1BnVjxEAn1/?mibextid=wwXIfr",
     hoverClass: "hover:text-[#A3CEF1]", // azul pastel claro
     label: "Facebook",
   },
   {
     icon: <FaInstagram size={18} />,
-    href: "#",
+    href: "https://www.instagram.com/vivawear_col?igsh=MW8xdXVtNWJ0OXE2ZA%3D%3D&utm_source=qr",
     hoverClass: "hover:text-[#F9C6C9]", // rosa pastel
     label: "Instagram",
   },
   {
     icon: <FaWhatsapp size={18} />,
-    href: "https://wa.me/573209516188?text=Hola%20quiero%20más%20información",
+    href: "https://wa.me/573043467419?text=¡Hola!%20Quiero%20más%20información%20sobre%20sus%20productos.",
     hoverClass: "hover:text-[#25D366]", // verde WhatsApp
     label: "WhatsApp",
   },

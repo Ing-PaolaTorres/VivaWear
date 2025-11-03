@@ -25,8 +25,8 @@ const TopBanner = () => {
 const navLinks = [
   { label: "Inicio", to: "/" },
   { label: "Productos", to: "/productos" },
-  { label: "Carrito", to: "/cart", icon: <FaShoppingCart className="mr-2" /> },
-  { label: "Admin", to: "/admin/login", special: true },
+  // { label: "Carrito", to: "/cart", icon: <FaShoppingCart className="mr-2" /> },
+  // { label: "Admin", to: "/admin/login", special: true },
 ];
 
 const Navbar = () => {
