@@ -3,7 +3,7 @@ import { FaLock, FaTruck, FaMapMarkedAlt } from "react-icons/fa";
 
 const BenefitsBar = () => {
   return (
-    <div className="bg-[#F9C6C9] py-6 sm:py-8 px-4">
+    <div className="bg-white py-6 sm:py-8 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 text-center">
         {/* Pago seguro */}
         <div className="flex flex-col items-center space-y-2 sm:space-y-3">

@@ -17,7 +17,7 @@ const ProductDetail = () => {
     );
 
   return (
-    <div className="bg-[#EAF8FB] min-h-screen px-4 sm:px-8 pt-[90px] sm:pt-[120px]">
+    <div className="bg-[#D5CFDF] min-h-screen px-4 sm:px-8 pt-[90px] sm:pt-[120px]">
       <div className="flex flex-col lg:flex-row lg:space-x-8">
         <div className="lg:w-1/2 flex flex-col lg:flex-row">
           {product.images.length > 1 && (

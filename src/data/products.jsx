@@ -6,6 +6,8 @@ export const products = [
     img: "/assets/images/product-1.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 2,
@@ -14,6 +16,8 @@ export const products = [
     img: "/assets/images/product-4.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 3,
@@ -22,6 +26,8 @@ export const products = [
     img: "/assets/images/product-7.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",  
   },
   {
     id: 4,
@@ -30,6 +36,8 @@ export const products = [
     img: "/assets/images/product-8.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 5,
@@ -38,6 +46,8 @@ export const products = [
     img: "/assets/images/product-9.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 6,
@@ -46,6 +56,8 @@ export const products = [
     img: "/assets/images/product-10.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 7,
@@ -54,6 +66,8 @@ export const products = [
     img: "/assets/images/product-11.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 8,
@@ -62,6 +76,8 @@ export const products = [
     img: "/assets/images/product-12.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 9,
@@ -70,6 +86,8 @@ export const products = [
     img: "/assets/images/product-13.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 10,
@@ -78,6 +96,8 @@ export const products = [
     img: "/assets/images/product-14.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 11,
@@ -86,6 +106,8 @@ export const products = [
     img: "/assets/images/product-15.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 12,
@@ -94,6 +116,8 @@ export const products = [
     img: "/assets/images/product-16.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",  
   },
   {
     id: 13,
@@ -102,6 +126,8 @@ export const products = [
     img: "/assets/images/product-17.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 14,
@@ -110,6 +136,8 @@ export const products = [
     img: "/assets/images/product-18.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 15,
@@ -118,6 +146,8 @@ export const products = [
     img: "/assets/images/product-19.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",  
   },
   {
     id: 16,
@@ -126,6 +156,8 @@ export const products = [
     img: "/assets/images/product-20.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 17,
@@ -134,6 +166,8 @@ export const products = [
     img: "/assets/images/product-21.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",  
   },
   {
     id: 18,
@@ -142,6 +176,8 @@ export const products = [
     img: "/assets/images/product-22.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",  
   },
   {
     id: 19,
@@ -150,14 +186,18 @@ export const products = [
     img: "/assets/images/product-23.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",  
   },
   {
     id: 20,
     name: "Conjunto Minnie - Short",
-    price: "$85.000",
+    price: "$48.000",
     img: "/assets/images/product-24.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 21,
@@ -166,6 +206,8 @@ export const products = [
     img: "/assets/images/product-25.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 22,
@@ -174,6 +216,8 @@ export const products = [
     img: "/assets/images/product-26.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 23,
@@ -182,14 +226,18 @@ export const products = [
     img: "/assets/images/product-27.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 24,
     name: "Conjunto Minnie - Sudadera",
-    price: "$93.000",
+    price: "$48.000",
     img: "/assets/images/product-28.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 25,
@@ -198,6 +246,8 @@ export const products = [
     img: "/assets/images/product-29.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 26,
@@ -206,6 +256,8 @@ export const products = [
     img: "/assets/images/product-30.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 27,
@@ -214,6 +266,8 @@ export const products = [
     img: "/assets/images/product-31.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 28,
@@ -222,6 +276,8 @@ export const products = [
     img: "/assets/images/product-32.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 29,
@@ -230,6 +286,8 @@ export const products = [
     img: "/assets/images/product-33.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 30,
@@ -238,6 +296,8 @@ export const products = [
     img: "/assets/images/product-34.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 31,
@@ -246,6 +306,8 @@ export const products = [
     img: "/assets/images/product-35.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 32,
@@ -254,6 +316,8 @@ export const products = [
     img: "/assets/images/product-36.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 33,
@@ -262,6 +326,8 @@ export const products = [
     img: "/assets/images/product-37.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 34,
@@ -270,14 +336,18 @@ export const products = [
     img: "/assets/images/product-38.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "conjuntos", 
   },
   {
     id: 35,
     name: "Conjunto Minnie - Short",
-    price: "$85.000",
+    price: "$48.000",
     img: "/assets/images/product-39.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 36,
@@ -286,6 +356,8 @@ export const products = [
     img: "/assets/images/product-40.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 37,
@@ -294,6 +366,8 @@ export const products = [
     img: "/assets/images/product-41.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 38,
@@ -302,6 +376,8 @@ export const products = [
     img: "/assets/images/product-42.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 39,
@@ -310,6 +386,8 @@ export const products = [
     img: "/assets/images/product-43.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 40,
@@ -318,6 +396,8 @@ export const products = [
     img: "/assets/images/product-44.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 41,
@@ -326,6 +406,8 @@ export const products = [
     img: "/assets/images/product-45.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 42,
@@ -334,6 +416,8 @@ export const products = [
     img: "/assets/images/product-46.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos", 
   },
   {
     id: 43,
@@ -342,6 +426,8 @@ export const products = [
     img: "/assets/images/product-47.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 44,
@@ -350,6 +436,8 @@ export const products = [
     img: "/assets/images/product-48.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 45,
@@ -358,6 +446,8 @@ export const products = [
     img: "/assets/images/product-49.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 46,
@@ -366,6 +456,8 @@ export const products = [
     img: "/assets/images/product-50.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 47,
@@ -374,6 +466,8 @@ export const products = [
     img: "/assets/images/product-51.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 48,
@@ -382,6 +476,8 @@ export const products = [
     img: "/assets/images/product-52.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 49,
@@ -390,6 +486,8 @@ export const products = [
     img: "/assets/images/product-53.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 50,
@@ -398,6 +496,8 @@ export const products = [
     img: "/assets/images/product-54.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 51,
@@ -406,6 +506,8 @@ export const products = [
     img: "/assets/images/product-55.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 52,
@@ -414,6 +516,8 @@ export const products = [
     img: "/assets/images/product-56.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 53,
@@ -422,6 +526,8 @@ export const products = [
     img: "/assets/images/product-57.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 54,
@@ -430,14 +536,8 @@ export const products = [
     img: "/assets/images/product-58.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
-  },
-  {
-    id: 55,
-    name: "Conjunto Minnie - Short",
-    price: "$85.000",
-    img: "/assets/images/product-59.jpeg",
-    description:
-      "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 56,
@@ -446,6 +546,8 @@ export const products = [
     img: "/assets/images/product-60.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 57,
@@ -454,6 +556,8 @@ export const products = [
     img: "/assets/images/product-61.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 58,
@@ -462,6 +566,8 @@ export const products = [
     img: "/assets/images/product-62.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 59,
@@ -470,6 +576,8 @@ export const products = [
     img: "/assets/images/product-63.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 60,
@@ -478,6 +586,8 @@ export const products = [
     img: "/assets/images/product-64.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 61,
@@ -486,6 +596,8 @@ export const products = [
     img: "/assets/images/product-65.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 62,
@@ -494,6 +606,8 @@ export const products = [
     img: "/assets/images/product-66.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 63,
@@ -502,6 +616,8 @@ export const products = [
     img: "/assets/images/product-67.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 64,
@@ -510,6 +626,8 @@ export const products = [
     img: "/assets/images/product-68.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 65,
@@ -518,6 +636,8 @@ export const products = [
     img: "/assets/images/product-69.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 66,
@@ -526,6 +646,8 @@ export const products = [
     img: "/assets/images/product-70.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-family", 
+    subcategory: "conjuntos", 
   },
   {
     id: 67,
@@ -534,6 +656,8 @@ export const products = [
     img: "/assets/images/product-71.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 68,
@@ -542,6 +666,8 @@ export const products = [
     img: "/assets/images/product-72.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 69,
@@ -550,6 +676,8 @@ export const products = [
     img: "/assets/images/product-73.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 70,
@@ -558,6 +686,8 @@ export const products = [
     img: "/assets/images/product-74.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-family", 
+    subcategory: "conjuntos",
   },
   {
     id: 71,
@@ -566,6 +696,8 @@ export const products = [
     img: "/assets/images/product-75.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 72,
@@ -574,6 +706,8 @@ export const products = [
     img: "/assets/images/product-76.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 73,
@@ -582,6 +716,8 @@ export const products = [
     img: "/assets/images/product-77.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 74,
@@ -590,6 +726,8 @@ export const products = [
     img: "/assets/images/product-78.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 75,
@@ -598,6 +736,8 @@ export const products = [
     img: "/assets/images/product-79.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 76,
@@ -606,6 +746,8 @@ export const products = [
     img: "/assets/images/product-80.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 77,
@@ -614,6 +756,8 @@ export const products = [
     img: "/assets/images/product-81.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 78,
@@ -622,6 +766,8 @@ export const products = [
     img: "/assets/images/product-82.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-family", 
+    subcategory: "pantalones",
   },
   {
     id: 79,
@@ -630,6 +776,8 @@ export const products = [
     img: "/assets/images/product-83.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 80,
@@ -638,6 +786,8 @@ export const products = [
     img: "/assets/images/product-84.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 81,
@@ -646,6 +796,8 @@ export const products = [
     img: "/assets/images/product-85.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 82,
@@ -654,6 +806,8 @@ export const products = [
     img: "/assets/images/product-86.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 83,
@@ -662,6 +816,8 @@ export const products = [
     img: "/assets/images/product-87.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 84,
@@ -670,6 +826,8 @@ export const products = [
     img: "/assets/images/product-88.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 85,
@@ -678,6 +836,8 @@ export const products = [
     img: "/assets/images/product-89.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 86,
@@ -686,6 +846,8 @@ export const products = [
     img: "/assets/images/product-90.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 87,
@@ -694,6 +856,8 @@ export const products = [
     img: "/assets/images/product-91.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 88,
@@ -702,6 +866,8 @@ export const products = [
     img: "/assets/images/product-92.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 89,
@@ -710,6 +876,8 @@ export const products = [
     img: "/assets/images/product-93.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 90,
@@ -718,6 +886,8 @@ export const products = [
     img: "/assets/images/product-94.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 91,
@@ -726,6 +896,8 @@ export const products = [
     img: "/assets/images/product-95.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 92,
@@ -734,6 +906,8 @@ export const products = [
     img: "/assets/images/product-96.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 93,
@@ -742,6 +916,8 @@ export const products = [
     img: "/assets/images/product-97.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 94,
@@ -750,6 +926,8 @@ export const products = [
     img: "/assets/images/product-98.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 95,
@@ -758,6 +936,8 @@ export const products = [
     img: "/assets/images/product-99.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 96,
@@ -766,6 +946,8 @@ export const products = [
     img: "/assets/images/product-100.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 97,
@@ -774,6 +956,8 @@ export const products = [
     img: "/assets/images/product-101.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 98,
@@ -782,6 +966,8 @@ export const products = [
     img: "/assets/images/product-102.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 99,
@@ -790,6 +976,8 @@ export const products = [
     img: "/assets/images/product-103.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-family", 
+    subcategory: "buzos",
   },
   {
     id: 100,
@@ -798,6 +986,8 @@ export const products = [
     img: "/assets/images/product-104.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-family", 
+    subcategory: "buzos",
   },
   {
     id: 101,
@@ -806,6 +996,8 @@ export const products = [
     img: "/assets/images/product-105.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 102,
@@ -814,6 +1006,8 @@ export const products = [
     img: "/assets/images/product-106.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-baby", 
+    subcategory: "mamelucos",
   },
   {
     id: 103,
@@ -822,6 +1016,8 @@ export const products = [
     img: "/assets/images/product-107.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 104,
@@ -830,6 +1026,8 @@ export const products = [
     img: "/assets/images/product-108.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 105,
@@ -838,6 +1036,8 @@ export const products = [
     img: "/assets/images/product-109.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 106,
@@ -846,6 +1046,8 @@ export const products = [
     img: "/assets/images/product-110.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "conjuntos",
   },
   {
     id: 107,
@@ -854,6 +1056,8 @@ export const products = [
     img: "/assets/images/product-111.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 108,
@@ -862,22 +1066,28 @@ export const products = [
     img: "/assets/images/product-112.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "t-shirts", 
   },
   {
     id: 109,
     name: "Conjunto Minnie - Sudadera",
-    price: "$93.000",
+    price: "$48.000",
     img: "/assets/images/product-113.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 110,
     name: "Conjunto Minnie - Short",
-    price: "$85.000",
+    price: "$48.000",
     img: "/assets/images/product-114.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 111,
@@ -886,6 +1096,8 @@ export const products = [
     img: "/assets/images/product-115.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 112,
@@ -894,6 +1106,8 @@ export const products = [
     img: "/assets/images/product-116.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "t-shirts",
   },
   {
     id: 113,
@@ -902,6 +1116,8 @@ export const products = [
     img: "/assets/images/product-117.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 114,
@@ -910,14 +1126,8 @@ export const products = [
     img: "/assets/images/product-118.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
-  },
-  {
-    id: 115,
-    name: "Conjunto Minnie - Short",
-    price: "$85.000",
-    img: "/assets/images/product-119.jpeg",
-    description:
-      "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 116,
@@ -926,6 +1136,8 @@ export const products = [
     img: "/assets/images/product-120.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 117,
@@ -934,6 +1146,8 @@ export const products = [
     img: "/assets/images/product-121.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 118,
@@ -942,6 +1156,8 @@ export const products = [
     img: "/assets/images/product-122.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 119,
@@ -950,6 +1166,8 @@ export const products = [
     img: "/assets/images/product-123.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 120,
@@ -958,6 +1176,8 @@ export const products = [
     img: "/assets/images/product-124.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 121,
@@ -966,6 +1186,8 @@ export const products = [
     img: "/assets/images/product-125.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 122,
@@ -974,6 +1196,8 @@ export const products = [
     img: "/assets/images/product-126.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 123,
@@ -982,6 +1206,8 @@ export const products = [
     img: "/assets/images/product-127.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 124,
@@ -990,6 +1216,8 @@ export const products = [
     img: "/assets/images/product-128.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 125,
@@ -998,6 +1226,8 @@ export const products = [
     img: "/assets/images/product-129.jpeg",
     description:
       "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 126,
@@ -1006,6 +1236,8 @@ export const products = [
     img: "/assets/images/product-130.jpeg",
     description:
       "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 127,
@@ -1014,6 +1246,8 @@ export const products = [
     img: "/assets/images/product-131.jpeg",
     description:
       "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 128,
@@ -1022,6 +1256,8 @@ export const products = [
     img: "/assets/images/product-132.jpeg",
     description:
       "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
   {
     id: 129,
@@ -1030,5 +1266,7 @@ export const products = [
     img: "/assets/images/product-133.jpeg",
     description:
       "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
+    category: "viva-kids", 
+    subcategory: "buzos",
   },
 ];

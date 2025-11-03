@@ -15,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/producto/:id" element={<ProductDetail />} />
         <Route path="/personalizar-camiseta" element={<ShirtCustomization />} />
+        <Route path="/categorias/:category/:subcategory" element={<Home />} />
       </Routes>
       <BenefitsBar />
       <Footer />

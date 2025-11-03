@@ -10,9 +10,10 @@ export const categories = [
     {
         label: "Viva Family",
         subcategories: [
-            { label: "Camisas", to: "/categorias/ropa-family/camisas" },
-            { label: "Pantalones", to: "/categorias/ropa-family/pantalones" },
-            { label: "Bodys", to: "/categorias/ropa-family/bodys" },
+            { label: "Camisas", to: "/categorias/viva-family/camisas" },
+            { label: "Pantalones", to: "/categorias/viva-family/pantalones" },
+            { label: "Bodys", to: "/categorias/viva-family/bodys" },
+            { label: "Conjuntos", to: "/categorias/viva-family/conjuntos" },
         ],
     },
     {

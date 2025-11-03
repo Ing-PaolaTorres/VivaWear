@@ -6,7 +6,7 @@ import { categories } from "../data/categories";
 // === TopBanner integrado ===
 const TopBanner = () => {
   return (
-    <div className="w-full bg-[#FFD166] text-black py-2 overflow-hidden relative">
+    <div className="w-full bg-[#B01b2e] text-white py-2 overflow-hidden relative">
       <div className="animate-marquee whitespace-nowrap flex items-center">
         <span className="mx-6 text-xs sm:text-sm font-medium">
           🎉 ¡Envío gratis por compras mayores a $150.000! 🎉
@@ -15,7 +15,7 @@ const TopBanner = () => {
           🧸 ¡Nuevos productos para bebés disponibles ahora! 🧸
         </span>
         <span className="mx-6 text-xs sm:text-sm font-medium">
-          🌈 Descuentos hasta 40% en ropa infantil 🌈
+          🌈 ¡Diseñamos momentos que se visten de amor! 🌈
         </span>
       </div>
     </div>
@@ -32,12 +32,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState(null); // Estado para controlar la categoría activa
   const navbarRef = useRef(null); // Referencia para detectar clics fuera del navbar
+  const [selectedCategory, setSelectedCategory] = useState(null); // Estado para manejar categoría seleccionada
 
   const toggleMenu = () => setIsOpen(!isOpen);
-
-  const toggleCategory = (index) => {
-    setActiveCategory(activeCategory === index ? null : index); // Toggle subcategorías
-  };
 
   // Detectar clics fuera del navbar para cerrar las subcategorías
   useEffect(() => {
@@ -55,13 +52,22 @@ const Navbar = () => {
     };
   }, []);
 
+  const toggleCategory = (index) => {
+    setActiveCategory(activeCategory === index ? null : index);
+  };
+
+  const onCategoryChange = (categoryLabel) => {
+    setSelectedCategory(categoryLabel); // Actualiza la categoría seleccionada
+    console.log("Categoría seleccionada:", categoryLabel); // Esto puedes reemplazarlo con lógica para filtrar productos, etc.
+  };
+
   return (
     <header className="w-full fixed top-0 left-0 z-50">
       {/* 🔝 TopBanner */}
       <TopBanner />
 
       {/* 🌸 Navbar principal */}
-      <nav className="bg-[#D5CFDF] text-black shadow-md" ref={navbarRef}>
+      <nav className="bg-[#EAF8FB] text-black shadow-md" ref={navbarRef}>
         <div className="max-w-7xl mx-auto h-16 flex justify-between items-center px-4">
           {/* Logo */}
           <Link
@@ -87,8 +93,7 @@ const Navbar = () => {
               <Link
                 key={label}
                 to={to}
-                className={`flex items-center transition ${special ? "hover:text-[#F9C6C9] font-semibold" : "hover:text-[#07689F]"}
-                  cursor-pointer`} // Aquí se agrega cursor-pointer
+                className={`flex items-center transition ${special ? "hover:text-[#F9C6C9] font-semibold" : "hover:text-[#07689F]"}`}
               >
                 {icon}
                 {label}
@@ -100,7 +105,7 @@ const Navbar = () => {
               <div key={category.label} className="relative">
                 <button
                   onClick={() => toggleCategory(index)}
-                  className="flex items-center space-x-2 transition hover:text-[#07689F] cursor-pointer" // Agregado cursor-pointer
+                  className="flex items-center space-x-2 transition hover:text-[#07689F] cursor-pointer"
                 >
                   <span>{category.label}</span>
                   <FaChevronDown className={`transition-transform ${activeCategory === index ? 'rotate-180' : ''}`} />
@@ -110,8 +115,9 @@ const Navbar = () => {
                     {category.subcategories.map((subcategory) => (
                       <Link
                         key={subcategory.label}
-                        to={subcategory.to}
+                        to={subcategory.to} // Usamos la ruta completa de cada subcategoría
                         className="block px-4 py-2 text-sm text-[#07689F] hover:bg-[#F9C6C9] rounded"
+                        onClick={() => onCategoryChange(subcategory.label)} // Actualiza la categoría seleccionada
                       >
                         {subcategory.label}
                       </Link>
@@ -134,8 +140,7 @@ const Navbar = () => {
               <Link
                 key={label}
                 to={to}
-                className={`flex items-center justify-center transition ${special ? "hover:text-[#F9C6C9] font-semibold" : "hover:text-[#07689F]"}
-                  cursor-pointer`} // Aquí también se agrega cursor-pointer
+                className={`flex items-center justify-center transition ${special ? "hover:text-[#F9C6C9] font-semibold" : "hover:text-[#07689F]"}`}
                 onClick={() => setIsOpen(false)}
               >
                 {icon}
@@ -147,8 +152,8 @@ const Navbar = () => {
             {categories.map((category, index) => (
               <div key={category.label} className="relative">
                 <button
-                  onClick={() => toggleCategory(index)}
-                  className="flex items-center justify-center space-x-2 text-lg cursor-pointer" // Agregado cursor-pointer
+                  onClick={() => toggleCategory(index)} // Pasa el label al hacer clic
+                  className="flex items-center space-x-2 transition hover:text-[#07689F] cursor-pointer"
                 >
                   <span>{category.label}</span>
                   <FaChevronDown className={`transition-transform ${activeCategory === index ? 'rotate-180' : ''}`} />
@@ -158,9 +163,9 @@ const Navbar = () => {
                     {category.subcategories.map((subcategory) => (
                       <Link
                         key={subcategory.label}
-                        to={subcategory.to}
-                        className="block px-4 py-2 text-sm text-[#07689F] hover:bg-[#F9C6C9]"
-                        onClick={() => setIsOpen(false)}
+                        to={subcategory.to} // Usamos la ruta completa de cada subcategoría
+                        className="block px-4 py-2 text-sm text-[#07689F] hover:bg-[#F9C6C9] rounded"
+                        onClick={() => onCategoryChange(subcategory.label)} // Actualiza la categoría seleccionada
                       >
                         {subcategory.label}
                       </Link>

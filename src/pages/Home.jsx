@@ -1,19 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { FaWhatsapp, FaInstagram, FaFacebookF } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { products } from "../data/products";
+import Navbar from "../components/Navbar";
 
 const carouselImages = [
-  "https://images.pexels.com/photos/3965546/pexels-photo-3965546.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+  "/assets/images/Banner-1.jpeg",
   "/assets/images/Banner-2.jpeg",
   "/assets/images/Banner-3.jpeg",
 ];
 
-
 const Home = () => {
+  const { category, subcategory } = useParams(); // Obtenemos los parámetros de la URL
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  // Filtramos los productos según la categoría y subcategoría
+  const filteredProducts = category
+    ? products.filter(
+      (product) =>
+        product.category === category && product.subcategory === subcategory
+    )
+    : products;
+
   const settings = {
     dots: true,
     infinite: true,
@@ -27,7 +39,7 @@ const Home = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-center text-center bg-[#EAF8FB] min-h-screen pt-[55px] sm:pt-[65px]">
+    <div className="relative flex flex-col items-center justify-center text-center bg-[#D5CFDF] min-h-screen pt-[55px] sm:pt-[65px]">
       {/* 🟢 Etiquetas flotantes laterales derechas */}
       <div className="fixed right-3 bottom-24 flex flex-col gap-3 z-50">
         {/* WhatsApp */}
@@ -103,10 +115,14 @@ const Home = () => {
       {/* Productos */}
       <section className="w-full max-w-6xl mx-auto px-4 pb-10">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-black mb-6">
-          Descubre Nuestro Mundo Viva
+          {category && subcategory
+            ? `Productos en ${subcategory} de ${category}`
+            : "Descubre Nuestro Mundo Viva"}
         </h2>
+
+        {/* Filtra los productos según la categoría */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6">
-          {products.map((product) => (
+          {filteredProducts.map((product) => (
             <div
               key={product.id}
               className="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all"
