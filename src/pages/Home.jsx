@@ -4,55 +4,14 @@ import { FaWhatsapp, FaInstagram, FaFacebookF } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { products } from "../data/products";
 
 const carouselImages = [
   "https://images.pexels.com/photos/3965546/pexels-photo-3965546.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-  "https://images.pexels.com/photos/5632377/pexels-photo-5632377.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-  "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+  "/assets/images/Banner-2.jpeg",
+  "/assets/images/Banner-3.jpeg",
 ];
 
-const products = [
-  {
-    id: 1,
-    name: "T-Shirt Minnie",
-    price: "$48.000",
-    img: "/assets/images/product-1.jpeg",
-    description:
-      "Camiseta Minnie de algodón suave y transpirable. Perfecta para el día a día con total comodidad y diversión.",
-  },
-  {
-    id: 2,
-    name: "T-Shirt Mickey",
-    price: "$48.000",
-    img: "/assets/images/product-4.jpeg",
-    description:
-      "Camiseta Mickey en algodón ligero, alegre y cómoda. Ideal para paseos, juegos y actividades cotidianas.",
-  },
-  {
-    id: 3,
-    name: "T-Shirt Friends",
-    price: "$48.000",
-    img: "/assets/images/product-7.jpeg",
-    description:
-      "Camiseta Friends en suave tono rosa pastel. Tela de alta calidad que mantiene a tu pequeño fresco y cómodo todo el día.",
-  },
-  {
-    id: 4,
-    name: "Conjunto Minnie - Sudadera",
-    price: "$93.000",
-    img: "/assets/images/product-8.jpeg",
-    description:
-      "Conjunto de sudadera Minnie con pantalón de cintura elástica. Ideal para jugar, salir o disfrutar en casa con estilo y comodidad.",
-  },
-  {
-    id: 5,
-    name: "Conjunto Minnie - Short",
-    price: "$85.000",
-    img: "/assets/images/product-9.jpeg",
-    description:
-      "Conjunto de short Minnie en algodón ligero. Cómodo, fresco y perfecto para días cálidos llenos de diversión.",
-  },
-];
 
 const Home = () => {
   const settings = {
@@ -104,22 +63,19 @@ const Home = () => {
 
       <section className="relative flex flex-col items-center justify-center px-4 py-6 sm:py-8 mt-6 sm:mt-6">
         <div className="flex items-center justify-center space-x-3 sm:space-x-6 relative z-10">
-          {/* 👶 Bebé izquierdo */}
           <img
-            src="https://cdn-icons-png.flaticon.com/512/414/414957.png"
-            alt="Bebé dibujo"
+            src="/assets/images/Icon-1.png"
+            alt="icon-christmas-1"
             className="w-10 sm:w-14 animate-bounce-slow"
           />
 
-          {/* Texto principal */}
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#FE9494]">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-black">
             ¡Bienvenido a VivaWear!
           </h1>
 
-          {/* 👶 Bebé derecho */}
           <img
-            src="https://cdn-icons-png.flaticon.com/512/414/414967.png"
-            alt="Bebé dibujo"
+            src="/assets/images/Icon-2.png"
+            alt="icon-christmas-2"
             className="w-10 sm:w-14 animate-bounce-slow-delay"
           />
         </div>
@@ -146,8 +102,8 @@ const Home = () => {
 
       {/* Productos */}
       <section className="w-full max-w-6xl mx-auto px-4 pb-10">
-        <h2 className="text-2xl sm:text-3xl font-bold text-[#FE9494] mb-6">
-          Nuestros Productos
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-black mb-6">
+          Descubre Nuestro Mundo Viva
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6">
           {products.map((product) => (

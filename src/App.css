@@ -18,3 +18,54 @@
 
 .animate-bounce-slow { animation: bounce-slow 3s infinite ease-in-out; }
 .animate-bounce-slow-delay { animation: bounce-slow 3s infinite ease-in-out 1.5s; }
+
+.customization-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.color-options button,
+.print-options button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+.color-options button:hover,
+.print-options button:hover {
+  background-color: #eee;
+}
+
+.canvas-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.save-button,
+.add-to-cart-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.save-button:hover,
+.add-to-cart-button:hover {
+  background-color: #218838;
+}

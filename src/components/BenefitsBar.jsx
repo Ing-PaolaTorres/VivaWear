@@ -9,10 +9,10 @@ const BenefitsBar = () => {
         <div className="flex flex-col items-center space-y-2 sm:space-y-3">
           <FaLock className="text-3xl sm:text-4xl text-[#7ABF62]" />
           <h4 className="font-semibold text-gray-800 text-base sm:text-lg">
-            Pago seguro
+            Contacto seguro
           </h4>
           <p className="text-xs sm:text-sm text-gray-700 max-w-[200px]">
-            Tus compras protegidas 100%
+            Te comunicas directamente con nosotros
           </p>
         </div>
 
@@ -23,7 +23,7 @@ const BenefitsBar = () => {
             Envíos gratis
           </h4>
           <p className="text-xs sm:text-sm text-gray-700 max-w-[200px]">
-            Por compras superiores a $149.000
+            Por compras superiores a $150.000
           </p>
         </div>
 
