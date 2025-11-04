@@ -69,3 +69,27 @@
 .add-to-cart-button:hover {
   background-color: #218838;
 }
+
+/* Animación de giro con círculo incompleto */
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-circle {
+  position: relative;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: 4px solid transparent;
+  border-top-color: #4a5568;  /* El color del borde superior */
+  border-bottom-color: #4a5568; /* El color del borde inferior */
+  border-left-color: transparent;
+  border-right-color: transparent;
+  animation: spin-slow 1.5s linear infinite;
+}
+

@@ -114,7 +114,7 @@ const Home = () => {
               {/* Loader por imagen */}
               {!loadedImages[`carousel-${index}`] && (
                 <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50 z-10">
-                  <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-gray-900 rounded-full" />
+                  <div className="spinner-circle animate-spin-slow inline-block w-16 h-16 border-t-4 border-b-4 border-gray-900 rounded-full" />
                 </div>
               )}
 
@@ -147,7 +147,7 @@ const Home = () => {
               {/* Loader en cada imagen de producto */}
               {!loadedImages[`product-${product.id}`] && (
                 <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50 z-10">
-                  <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-gray-900 rounded-full" />
+                  <div className="spinner-circle animate-spin-slow inline-block w-16 h-16 border-t-4 border-b-4 border-gray-900 rounded-full" />
                 </div>
               )}
 
