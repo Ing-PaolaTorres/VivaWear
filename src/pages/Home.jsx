@@ -71,8 +71,8 @@ const Home = () => {
     <div className="relative flex flex-col items-center justify-center text-center bg-[#D5CFDF] min-h-screen pt-[55px] sm:pt-[65px]">
       {/* Loading Screen */}
       {loading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-white z-50">
-          <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-gray-900 rounded-full" />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-white rounded-full" />
         </div>
       )}
 
