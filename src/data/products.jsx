@@ -62,7 +62,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Mickey",
     price: "$93.000",
     img: "/assets/images/product-10.jpeg",
     description:
@@ -73,7 +73,7 @@ export const products = [
   },
   {
     id: 7,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Winnie Pooh",
     price: "$93.000",
     img: "/assets/images/product-11.jpeg",
     description:
@@ -84,7 +84,7 @@ export const products = [
   },
   {
     id: 8,
-    name: "T-Shirt Friends",
+    name: "Conjunto Addidas",
     price: "$75.000",
     img: "/assets/images/product-12.jpeg",
     description:
@@ -95,7 +95,7 @@ export const products = [
   },
   {
     id: 9,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Cars",
     price: "$93.000",
     img: "/assets/images/product-13.jpeg",
     description:
@@ -106,7 +106,7 @@ export const products = [
   },
   {
     id: 10,
-    name: "Conjunto Minnie - Short",
+    name: "Conjunto Simba",
     price: "$93.000",
     img: "/assets/images/product-14.jpeg",
     description:
@@ -117,7 +117,7 @@ export const products = [
   },
   {
     id: 11,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Rey León",
     price: "$85.000",
     img: "/assets/images/product-15.jpeg",
     description:
@@ -128,7 +128,7 @@ export const products = [
   },
   {
     id: 12,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Mickey",
     price: "$85.000",
     img: "/assets/images/product-16.jpeg",
     description:
@@ -139,7 +139,7 @@ export const products = [
   },
   {
     id: 13,
-    name: "T-Shirt Friends",
+    name: "Conjunto Lilo",
     price: "$85.000",
     img: "/assets/images/product-17.jpeg",
     description:
@@ -150,7 +150,7 @@ export const products = [
   },
   {
     id: 14,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Rosa",
     price: "$83.000",
     img: "/assets/images/product-18.jpeg",
     description:
@@ -161,7 +161,7 @@ export const products = [
   },
   {
     id: 15,
-    name: "Conjunto Minnie - Short",
+    name: "Buzo Gato",
     price: "$83.000",
     img: "/assets/images/product-19.jpeg",
     description:
@@ -172,7 +172,7 @@ export const products = [
   },
   {
     id: 16,
-    name: "T-Shirt Minnie",
+    name: "Buzo Letras",
     price: "$83.000",
     img: "/assets/images/product-20.jpeg",
     description:
@@ -183,7 +183,7 @@ export const products = [
   },
   {
     id: 17,
-    name: "T-Shirt Mickey",
+    name: "T-shirt Friends",
     price: "$48.000",
     img: "/assets/images/product-21.jpeg",
     description:
@@ -196,7 +196,7 @@ export const products = [
   },
   {
     id: 18,
-    name: "T-Shirt Friends",
+    name: "T-shirt Friends",
     price: "$48.000",
     img: "/assets/images/product-22.jpeg",
     description:
@@ -209,7 +209,7 @@ export const products = [
   },
   {
     id: 19,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Picture",
     price: "$83.000",
     img: "/assets/images/product-23.jpeg",
     description:
@@ -220,7 +220,7 @@ export const products = [
   },
   {
     id: 20,
-    name: "Conjunto Minnie - Short",
+    name: "T-Shirt Goofy",
     price: "$48.000",
     img: "/assets/images/product-24.jpeg",
     description:
@@ -233,7 +233,7 @@ export const products = [
   },
   {
     id: 21,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Blue",
     price: "$75.000",
     img: "/assets/images/product-25.jpeg",
     description:
@@ -244,7 +244,7 @@ export const products = [
   },
   {
     id: 22,
-    name: "T-Shirt Mickey",
+    name: "T-Shirt The Fun",
     price: "$48.000",
     img: "/assets/images/product-26.jpeg",
     description:
@@ -257,7 +257,7 @@ export const products = [
   },
   {
     id: 23,
-    name: "T-Shirt Friends",
+    name: "Conjunto Donald",
     price: "$75.000",
     img: "/assets/images/product-27.jpeg",
     description:
@@ -268,7 +268,7 @@ export const products = [
   },
   {
     id: 24,
-    name: "Conjunto Minnie - Sudadera",
+    name: "T-Shirt Friend",
     price: "$48.000",
     img: "/assets/images/product-28.jpeg",
     description:
@@ -281,7 +281,7 @@ export const products = [
   },
   {
     id: 25,
-    name: "Conjunto Minnie - Short",
+    name: "Buzo 1928",
     price: "$83.000",
     img: "/assets/images/product-29.jpeg",
     description:
@@ -292,7 +292,7 @@ export const products = [
   },
   {
     id: 26,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Caricature",
     price: "$85.000",
     img: "/assets/images/product-30.jpeg",
     description:
@@ -303,7 +303,7 @@ export const products = [
   },
   {
     id: 27,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Mickey & Pluto",
     price: "$93.000",
     img: "/assets/images/product-31.jpeg",
     description:
@@ -314,7 +314,7 @@ export const products = [
   },
   {
     id: 28,
-    name: "T-Shirt Friends",
+    name: "Buzo Mickey & Friends",
     price: "$83.000",
     img: "/assets/images/product-32.jpeg",
     description:
@@ -325,7 +325,7 @@ export const products = [
   },
   {
     id: 29,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Rosa Pastel",
     price: "$85.000",
     img: "/assets/images/product-33.jpeg",
     description:
@@ -336,7 +336,7 @@ export const products = [
   },
   {
     id: 30,
-    name: "Conjunto Minnie - Short",
+    name: "Buzo Mickey Astronauta",
     price: "$83.000",
     img: "/assets/images/product-34.jpeg",
     description:
@@ -347,7 +347,7 @@ export const products = [
   },
   {
     id: 31,
-    name: "T-Shirt Minnie",
+    name: "Buzo Minnions",
     price: "$83.000",
     img: "/assets/images/product-35.jpeg",
     description:
@@ -358,7 +358,7 @@ export const products = [
   },
   {
     id: 32,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Lila",
     price: "$85.000",
     img: "/assets/images/product-36.jpeg",
     description:
@@ -369,7 +369,7 @@ export const products = [
   },
   {
     id: 33,
-    name: "T-Shirt Friends",
+    name: "Conjunto 1923",
     price: "$93.000",
     img: "/assets/images/product-37.jpeg",
     description:
@@ -380,7 +380,7 @@ export const products = [
   },
   {
     id: 34,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Flower",
     price: "$85.000",
     img: "/assets/images/product-38.jpeg",
     description:
@@ -391,7 +391,7 @@ export const products = [
   },
   {
     id: 35,
-    name: "Conjunto Minnie - Short",
+    name: "T-Shirt The Fun",
     price: "$48.000",
     img: "/assets/images/product-39.jpeg",
     description:
@@ -404,7 +404,7 @@ export const products = [
   },
   {
     id: 36,
-    name: "T-Shirt Minnie",
+    name: "Pack x 4 Minnie",
     price: "$335.000",
     img: "/assets/images/product-40.jpeg",
     description:
@@ -415,7 +415,7 @@ export const products = [
   },
   {
     id: 37,
-    name: "T-Shirt Mickey",
+    name: "Buzo Minnie Pinceladas",
     price: "$83.000",
     img: "/assets/images/product-41.jpeg",
     description:
@@ -426,7 +426,7 @@ export const products = [
   },
   {
     id: 38,
-    name: "T-Shirt Friends",
+    name: "Buzo Minnie Rosa",
     price: "$83.000",
     img: "/assets/images/product-42.jpeg",
     description:
@@ -437,7 +437,7 @@ export const products = [
   },
   {
     id: 39,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Minnie Beige",
     price: "$83.000",
     img: "/assets/images/product-43.jpeg",
     description:
@@ -448,7 +448,7 @@ export const products = [
   },
   {
     id: 40,
-    name: "Conjunto Minnie - Short",
+    name: "Conjunto Rostros",
     price: "$75.000",
     img: "/assets/images/product-44.jpeg",
     description:
@@ -459,7 +459,7 @@ export const products = [
   },
   {
     id: 41,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Mickey",
     price: "$93.000",
     img: "/assets/images/product-45.jpeg",
     description:
@@ -470,7 +470,7 @@ export const products = [
   },
   {
     id: 42,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Friends",
     price: "$93.000",
     img: "/assets/images/product-46.jpeg",
     description:
@@ -481,7 +481,7 @@ export const products = [
   },
   {
     id: 43,
-    name: "T-Shirt Friends",
+    name: "Conjunto Brooklyn",
     price: "$75.000",
     img: "/assets/images/product-47.jpeg",
     description:
@@ -492,7 +492,7 @@ export const products = [
   },
   {
     id: 44,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Crew",
     price: "$83.000",
     img: "/assets/images/product-48.jpeg",
     description:
@@ -503,7 +503,7 @@ export const products = [
   },
   {
     id: 45,
-    name: "Conjunto Minnie - Short",
+    name: "Conjunto Pool",
     price: "$75.000",
     img: "/assets/images/product-49.jpeg",
     description:
@@ -514,7 +514,7 @@ export const products = [
   },
   {
     id: 46,
-    name: "T-Shirt Minnie",
+    name: "Conjunto MOD",
     price: "$75.000",
     img: "/assets/images/product-50.jpeg",
     description:
@@ -525,7 +525,7 @@ export const products = [
   },
   {
     id: 47,
-    name: "T-Shirt Mickey",
+    name: "Conjunto California",
     price: "$75.000",
     img: "/assets/images/product-51.jpeg",
     description:
@@ -536,7 +536,7 @@ export const products = [
   },
   {
     id: 48,
-    name: "T-Shirt Friends",
+    name: "Conjunto California",
     price: "$75.000",
     img: "/assets/images/product-52.jpeg",
     description:
@@ -547,7 +547,7 @@ export const products = [
   },
   {
     id: 49,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Brooklyn",
     price: "$75.000",
     img: "/assets/images/product-53.jpeg",
     description:
@@ -558,7 +558,7 @@ export const products = [
   },
   {
     id: 50,
-    name: "Conjunto Minnie - Short",
+    name: "Conjunto Blue",
     price: "$93.000",
     img: "/assets/images/product-54.jpeg",
     description:
@@ -569,7 +569,7 @@ export const products = [
   },
   {
     id: 51,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Nasa",
     price: "$75.000",
     img: "/assets/images/product-55.jpeg",
     description:
@@ -580,7 +580,7 @@ export const products = [
   },
   {
     id: 52,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Minnie Beige",
     price: "$75.000",
     img: "/assets/images/product-56.jpeg",
     description:
@@ -591,7 +591,7 @@ export const products = [
   },
   {
     id: 53,
-    name: "T-Shirt Friends",
+    name: "Conjunto Bleu Lila",
     price: "$75.000",
     img: "/assets/images/product-57.jpeg",
     description:
@@ -602,7 +602,7 @@ export const products = [
   },
   {
     id: 54,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Tiger",
     price: "$93.000",
     img: "/assets/images/product-58.jpeg",
     description:
@@ -613,7 +613,7 @@ export const products = [
   },
   {
     id: 56,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Minnie",
     price: "$75.000",
     img: "/assets/images/product-60.jpeg",
     description:
@@ -624,7 +624,7 @@ export const products = [
   },
   {
     id: 57,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Blue",
     price: "$93.000",
     img: "/assets/images/product-61.jpeg",
     description:
@@ -648,7 +648,7 @@ export const products = [
   },
   {
     id: 59,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Hi",
     price: "$85.000",
     img: "/assets/images/product-63.jpeg",
     description:
@@ -659,7 +659,7 @@ export const products = [
   },
   {
     id: 60,
-    name: "Conjunto Minnie - Short",
+    name: "Conjunto New York",
     price: "$85.000",
     img: "/assets/images/product-64.jpeg",
     description:
@@ -670,8 +670,8 @@ export const products = [
   },
   {
     id: 61,
-    name: "T-Shirt Minnie",
-    price: "$48.000",
+    name: "Pack x 3",
+    price: "$130.000",
     img: "/assets/images/product-65.jpeg",
     description:
         `Nuestras camisetas están elaboradas en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
@@ -683,7 +683,7 @@ export const products = [
   },
   {
     id: 62,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Basic",
     price: "$85.000",
     img: "/assets/images/product-66.jpeg",
     description:
@@ -694,7 +694,7 @@ export const products = [
   },
   {
     id: 63,
-    name: "T-Shirt Friends",
+    name: "Conjunto Basic",
     price: "$85.000",
     img: "/assets/images/product-67.jpeg",
     description:
@@ -705,7 +705,7 @@ export const products = [
   },
   {
     id: 64,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Basic",
     price: "$85.000",
     img: "/assets/images/product-68.jpeg",
     description:
@@ -716,7 +716,7 @@ export const products = [
   },
   {
     id: 65,
-    name: "Conjunto Minnie - Short",
+    name: "Conjunto California",
     price: "$85.000",
     img: "/assets/images/product-69.jpeg",
     description:
@@ -727,7 +727,7 @@ export const products = [
   },
   {
     id: 66,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Classic",
     price: "$85.000",
     img: "/assets/images/product-70.jpeg",
     description:
@@ -738,7 +738,7 @@ export const products = [
   },
   {
     id: 67,
-    name: "T-Shirt Mickey",
+    name: "Conjunto Classic",
     price: "$85.000",
     img: "/assets/images/product-71.jpeg",
     description:
@@ -749,7 +749,7 @@ export const products = [
   },
   {
     id: 68,
-    name: "T-Shirt Friends",
+    name: "Conjunto Classic",
     price: "$85.000",
     img: "/assets/images/product-72.jpeg",
     description:
@@ -760,7 +760,7 @@ export const products = [
   },
   {
     id: 69,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Conjunto Classic",
     price: "$85.000",
     img: "/assets/images/product-73.jpeg",
     description:
@@ -771,7 +771,7 @@ export const products = [
   },
   {
     id: 70,
-    name: "Conjunto Minnie - Short",
+    name: "Conjunto Classic",
     price: "$85.000",
     img: "/assets/images/product-74.jpeg",
     description:
@@ -782,8 +782,8 @@ export const products = [
   },
   {
     id: 71,
-    name: "T-Shirt Minnie",
-    price: "$36.000",
+    name: "Pack x 4",
+    price: "$140.000",
     img: "/assets/images/product-75.jpeg",
     description:
         `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
@@ -793,8 +793,8 @@ export const products = [
   },
   {
     id: 72,
-    name: "T-Shirt Mickey",
-    price: "$36.000",
+    name: "Pack x 4",
+    price: "$140.000",
     img: "/assets/images/product-76.jpeg",
     description:
         `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
@@ -804,8 +804,8 @@ export const products = [
   },
   {
     id: 73,
-    name: "T-Shirt Friends",
-    price: "$36.000",
+    name: "Pack x 4",
+    price: "$140.000",
     img: "/assets/images/product-77.jpeg",
     description:
         `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
@@ -815,7 +815,7 @@ export const products = [
   },
   {
     id: 74,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Pantalon Negro - Bota Ancha",
     price: "$55.000",
     img: "/assets/images/product-78.jpeg",
     description:
@@ -826,8 +826,8 @@ export const products = [
   },
   {
     id: 75,
-    name: "Conjunto Minnie - Short",
-    price: "$55.000",
+    name: "Pack x 3",
+    price: "$160.000",
     img: "/assets/images/product-79.jpeg",
     description:
         `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
@@ -837,8 +837,8 @@ export const products = [
   },
   {
     id: 76,
-    name: "T-Shirt Minnie",
-    price: "$55.000",
+    name: "Pack x 3",
+    price: "$160.000",
     img: "/assets/images/product-80.jpeg",
     description:
         `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
@@ -848,8 +848,8 @@ export const products = [
   },
   {
     id: 77,
-    name: "T-Shirt Mickey",
-    price: "$55.000",
+    name: "Pack x 8",
+    price: "$450.000",
     img: "/assets/images/product-81.jpeg",
     description:
         `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
@@ -859,7 +859,7 @@ export const products = [
   },
   {
     id: 78,
-    name: "T-Shirt Friends",
+    name: "Pantalon Negro Liso - Bota Ancha",
     price: "$55.000",
     img: "/assets/images/product-82.jpeg",
     description:
@@ -870,7 +870,7 @@ export const products = [
   },
   {
     id: 79,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-83.jpeg",
     description:
@@ -881,7 +881,7 @@ export const products = [
   },
   {
     id: 80,
-    name: "Conjunto Minnie - Short",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-84.jpeg",
     description:
@@ -892,7 +892,7 @@ export const products = [
   },
   {
     id: 81,
-    name: "T-Shirt Minnie",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-85.jpeg",
     description:
@@ -903,7 +903,7 @@ export const products = [
   },
   {
     id: 82,
-    name: "T-Shirt Mickey",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-86.jpeg",
     description:
@@ -914,7 +914,7 @@ export const products = [
   },
   {
     id: 83,
-    name: "T-Shirt Friends",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-87.jpeg",
     description:
@@ -925,7 +925,7 @@ export const products = [
   },
   {
     id: 84,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Baby",
     price: "38.000",
     img: "/assets/images/product-88.jpeg",
     description:
@@ -936,7 +936,7 @@ export const products = [
   },
   {
     id: 85,
-    name: "Conjunto Minnie - Short",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-89.jpeg",
     description:
@@ -947,7 +947,7 @@ export const products = [
   },
   {
     id: 86,
-    name: "T-Shirt Minnie",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-90.jpeg",
     description:
@@ -958,7 +958,7 @@ export const products = [
   },
   {
     id: 87,
-    name: "T-Shirt Mickey",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-91.jpeg",
     description:
@@ -969,7 +969,7 @@ export const products = [
   },
   {
     id: 88,
-    name: "T-Shirt Friends",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-92.jpeg",
     description:
@@ -980,7 +980,7 @@ export const products = [
   },
   {
     id: 89,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-93.jpeg",
     description:
@@ -991,7 +991,7 @@ export const products = [
   },
   {
     id: 90,
-    name: "Conjunto Minnie - Short",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-94.jpeg",
     description:
@@ -1002,7 +1002,7 @@ export const products = [
   },
   {
     id: 91,
-    name: "T-Shirt Minnie",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-95.jpeg",
     description:
@@ -1013,7 +1013,7 @@ export const products = [
   },
   {
     id: 92,
-    name: "T-Shirt Mickey",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-96.jpeg",
     description:
@@ -1024,7 +1024,7 @@ export const products = [
   },
   {
     id: 93,
-    name: "T-Shirt Friends",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-97.jpeg",
     description:
@@ -1035,7 +1035,7 @@ export const products = [
   },
   {
     id: 94,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-98.jpeg",
     description:
@@ -1046,7 +1046,7 @@ export const products = [
   },
   {
     id: 95,
-    name: "Conjunto Minnie - Short",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-99.jpeg",
     description:
@@ -1057,7 +1057,7 @@ export const products = [
   },
   {
     id: 96,
-    name: "T-Shirt Minnie",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-100.jpeg",
     description:
@@ -1068,7 +1068,7 @@ export const products = [
   },
   {
     id: 97,
-    name: "T-Shirt Mickey",
+    name: "Buzo Blue",
     price: "$83.000",
     img: "/assets/images/product-101.jpeg",
     description:
@@ -1079,7 +1079,7 @@ export const products = [
   },
   {
     id: 98,
-    name: "T-Shirt Friends",
+    name: "Baby",
     price: "$38.000",
     img: "/assets/images/product-102.jpeg",
     description:
@@ -1090,7 +1090,7 @@ export const products = [
   },
   {
     id: 99,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Chicago",
     price: "$93.000",
     img: "/assets/images/product-103.jpeg",
     description:
@@ -1101,7 +1101,7 @@ export const products = [
   },
   {
     id: 100,
-    name: "Conjunto Minnie - Short",
+    name: "Buzo New York",
     price: "$85.000",
     img: "/assets/images/product-104.jpeg",
     description:
@@ -1112,7 +1112,7 @@ export const products = [
   },
   {
     id: 101,
-    name: "T-Shirt Minnie",
+    name: "Buzo Happy",
     price: "$83.000",
     img: "/assets/images/product-105.jpeg",
     description:
@@ -1123,8 +1123,8 @@ export const products = [
   },
   {
     id: 102,
-    name: "T-Shirt Mickey",
-    price: "$38.000",
+    name: "Pack x 5 Baby",
+    price: "$175.000",
     img: "/assets/images/product-106.jpeg",
     description:
       `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
@@ -1134,7 +1134,7 @@ export const products = [
   },
   {
     id: 103,
-    name: "T-Shirt Friends",
+    name: "Buzo NBA",
     price: "$83.000",
     img: "/assets/images/product-107.jpeg",
     description:
@@ -1145,7 +1145,7 @@ export const products = [
   },
   {
     id: 104,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Apple",
     price: "$83.000",
     img: "/assets/images/product-108.jpeg",
     description:
@@ -1156,7 +1156,7 @@ export const products = [
   },
   {
     id: 105,
-    name: "Conjunto Minnie - Short",
+    name: "Buzo 1990",
     price: "$83.000",
     img: "/assets/images/product-109.jpeg",
    description:
@@ -1167,7 +1167,7 @@ export const products = [
   },
   {
     id: 106,
-    name: "T-Shirt Minnie",
+    name: "Conjunto Friends",
     price: "$75.000",
     img: "/assets/images/product-110.jpeg",
     description:
@@ -1178,7 +1178,7 @@ export const products = [
   },
   {
     id: 107,
-    name: "T-Shirt Mickey",
+    name: "Buzo Marvel",
     price: "$83.000",
     img: "/assets/images/product-111.jpeg",
     description:
@@ -1189,7 +1189,7 @@ export const products = [
   },
   {
     id: 108,
-    name: "T-Shirt Friends",
+    name: "T-Shirt Heroes",
     price: "$48.000",
     img: "/assets/images/product-112.jpeg",
     description:
@@ -1202,7 +1202,7 @@ export const products = [
   },
   {
     id: 109,
-    name: "Conjunto Minnie - Sudadera",
+    name: "T-Shirt 95",
     price: "$48.000",
     img: "/assets/images/product-113.jpeg",
     description:
@@ -1215,7 +1215,7 @@ export const products = [
   },
   {
     id: 110,
-    name: "Conjunto Minnie - Short",
+    name: "T-Shirt Friends",
     price: "$48.000",
     img: "/assets/images/product-114.jpeg",
     description:
@@ -1228,7 +1228,7 @@ export const products = [
   },
   {
     id: 111,
-    name: "T-Shirt Minnie",
+    name: "T-Shirt Spiderman",
     price: "$48.000",
     img: "/assets/images/product-115.jpeg",
     description:
@@ -1240,7 +1240,7 @@ export const products = [
   },
   {
     id: 112,
-    name: "T-Shirt Mickey",
+    name: "T-Shirt Friends",
     price: "$48.000",
     img: "/assets/images/product-116.jpeg",
     description:
@@ -1253,7 +1253,7 @@ export const products = [
   },
   {
     id: 113,
-    name: "T-Shirt Friends",
+    name: "Buzo Mickey",
     price: "$83.000",
     img: "/assets/images/product-117.jpeg",
     description:
@@ -1264,7 +1264,7 @@ export const products = [
   },
   {
     id: 114,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Paw Patrol",
     price: "$83.000",
     img: "/assets/images/product-118.jpeg",
     description:
@@ -1274,30 +1274,8 @@ export const products = [
     subcategory: "buzos",
   },
   {
-    id: 116,
-    name: "T-Shirt Minnie",
-    price: "$83.000",
-    img: "/assets/images/product-120.jpeg",
-    description:
-      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
-       Personalízalas con el color, diseño o personaje que más te guste.`,
-    category: "viva-kids", 
-    subcategory: "buzos",
-  },
-  {
-    id: 117,
-    name: "T-Shirt Mickey",
-    price: "$83.000",
-    img: "/assets/images/product-121.jpeg",
-    description:
-      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
-       Personalízalas con el color, diseño o personaje que más te guste.`,
-    category: "viva-kids", 
-    subcategory: "buzos",
-  },
-  {
     id: 118,
-    name: "T-Shirt Friends",
+    name: "Buzo Blue",
     price: "$83.000",
     img: "/assets/images/product-122.jpeg",
     description:
@@ -1308,7 +1286,7 @@ export const products = [
   },
   {
     id: 119,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Green",
     price: "$83.000",
     img: "/assets/images/product-123.jpeg",
     description:
@@ -1318,19 +1296,8 @@ export const products = [
     subcategory: "buzos",
   },
   {
-    id: 120,
-    name: "Conjunto Minnie - Short",
-    price: "$83.000",
-    img: "/assets/images/product-124.jpeg",
-    description:
-      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
-       Personalízalas con el color, diseño o personaje que más te guste.`,
-    category: "viva-kids", 
-    subcategory: "buzos",
-  },
-  {
     id: 121,
-    name: "T-Shirt Minnie",
+    name: "Buzo Mouse",
     price: "$83.000",
     img: "/assets/images/product-125.jpeg",
     description:
@@ -1341,7 +1308,7 @@ export const products = [
   },
   {
     id: 122,
-    name: "T-Shirt Mickey",
+    name: "Buzo Mickey",
     price: "$83.000",
     img: "/assets/images/product-126.jpeg",
     description:
@@ -1352,7 +1319,7 @@ export const products = [
   },
   {
     id: 123,
-    name: "T-Shirt Friends",
+    name: "Buzo Mickey",
     price: "$83.000",
     img: "/assets/images/product-127.jpeg",
     description:
@@ -1363,7 +1330,7 @@ export const products = [
   },
   {
     id: 124,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Walt Disney",
     price: "$83.000",
     img: "/assets/images/product-128.jpeg",
     description:
@@ -1374,7 +1341,7 @@ export const products = [
   },
   {
     id: 125,
-    name: "Conjunto Minnie - Short",
+    name: "Buzo Together",
     price: "$83.000",
     img: "/assets/images/product-129.jpeg",
     description:
@@ -1385,7 +1352,7 @@ export const products = [
   },
   {
     id: 126,
-    name: "T-Shirt Minnie",
+    name: "Buzo Valentine",
     price: "$83.000",
     img: "/assets/images/product-130.jpeg",
     description:
@@ -1396,7 +1363,7 @@ export const products = [
   },
   {
     id: 127,
-    name: "T-Shirt Mickey",
+    name: "Buzo Mickey - Minnie",
     price: "$83.000",
     img: "/assets/images/product-131.jpeg",
     description:
@@ -1407,7 +1374,7 @@ export const products = [
   },
   {
     id: 128,
-    name: "T-Shirt Friends",
+    name: "Buzo Minnie",
     price: "$83.000",
     img: "/assets/images/product-132.jpeg",
     description:
@@ -1418,7 +1385,7 @@ export const products = [
   },
   {
     id: 129,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Minnie",
     price: "$83.000",
     img: "/assets/images/product-133.jpeg",
     description:
@@ -1429,7 +1396,7 @@ export const products = [
   },
   {
     id: 130,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Christmas",
     price: "$83.000",
     img: "/assets/images/product-134.jpeg",
     description:
@@ -1440,7 +1407,7 @@ export const products = [
   },
   {
     id: 131,
-    name: "Conjunto Minnie - Sudadera",
+    name: "T-Shirts Christmas",
     price: "$83.000",
     img: "/assets/images/product-135.jpeg",
     description:
@@ -1450,19 +1417,8 @@ export const products = [
     subcategory: "t-shirts",
   },
   {
-    id: 132,
-    name: "Conjunto Minnie - Sudadera",
-    price: "$83.000",
-    img: "/assets/images/product-136.jpeg",
-    description:
-      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
-       Personalízalas con el color, diseño o personaje que más te guste.`,
-    category: "viva-christmas", 
-    subcategory: "buzos",
-  },
-  {
     id: 133,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Christmas",
     price: "$83.000",
     img: "/assets/images/product-137.jpeg",
     description:
@@ -1473,7 +1429,7 @@ export const products = [
   },
   {
     id: 134,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Christmas",
     price: "$83.000",
     img: "/assets/images/product-138.jpeg",
     description:
@@ -1484,7 +1440,7 @@ export const products = [
   },
   {
     id: 135,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Christmas",
     price: "$83.000",
     img: "/assets/images/product-139.jpeg",
     description:
@@ -1495,7 +1451,7 @@ export const products = [
   },
   {
     id: 136,
-    name: "Conjunto Minnie - Sudadera",
+    name: "T-Shirts Christmas",
     price: "$83.000",
     img: "/assets/images/product-140.jpeg",
     description:
@@ -1506,7 +1462,7 @@ export const products = [
   },
   {
     id: 137,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Christmas",
     price: "$83.000",
     img: "/assets/images/product-141.jpeg",
     description:
@@ -1517,7 +1473,7 @@ export const products = [
   },
   {
     id: 138,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Christmas",
     price: "$83.000",
     img: "/assets/images/product-142.jpeg",
     description:
@@ -1528,7 +1484,7 @@ export const products = [
   },
   {
     id: 139,
-    name: "Conjunto Minnie - Sudadera",
+    name: "T-Shirts Christmas",
     price: "$83.000",
     img: "/assets/images/product-143.jpeg",
     description:
@@ -1539,7 +1495,7 @@ export const products = [
   },
   {
     id: 140,
-    name: "Conjunto Minnie - Sudadera",
+    name: "Buzo Christmas",
     price: "$83.000",
     img: "/assets/images/product-144.jpeg",
     description:
