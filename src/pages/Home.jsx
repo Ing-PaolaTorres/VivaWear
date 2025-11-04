@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { products } from "../data/products";
-import Navbar from "../components/Navbar";
 
 const carouselImages = [
   "/assets/images/Banner-1.jpeg",
@@ -15,10 +14,10 @@ const carouselImages = [
 ];
 
 const Home = () => {
-  const { category, subcategory } = useParams(); // Obtenemos los parámetros de la URL
-  const [selectedCategory, setSelectedCategory] = useState(null);
 
-  // Filtramos los productos según la categoría y subcategoría
+  const { category, subcategory } = useParams();
+  const [loading, setLoading] = useState(true);
+
   const filteredProducts = category
     ? products.filter(
       (product) =>
@@ -38,8 +37,47 @@ const Home = () => {
     adaptiveHeight: true,
   };
 
+  // Función para detectar si las imágenes han cargado
+  const handleImageLoad = () => {
+    setLoading(false); // Cuando la última imagen carga, ocultamos el loader
+  };
+
+  // Función para cargar todas las imágenes y los estilos CSS
+  useEffect(() => {
+    const imgElements = document.querySelectorAll("img");
+    let loadedImages = 0;
+    const totalImages = imgElements.length;
+
+    const imageLoaded = () => {
+      loadedImages += 1;
+      if (loadedImages === totalImages) {
+        setLoading(false);
+      }
+    };
+
+    imgElements.forEach((img) => {
+      img.addEventListener("load", imageLoaded);
+      if (img.complete) {
+        imageLoaded();
+      }
+    });
+
+    return () => {
+      imgElements.forEach((img) => {
+        img.removeEventListener("load", imageLoaded);
+      });
+    };
+  }, []);
+
   return (
     <div className="relative flex flex-col items-center justify-center text-center bg-[#D5CFDF] min-h-screen pt-[55px] sm:pt-[65px]">
+      {/* Loading Screen */}
+      {loading && (
+        <div className="absolute inset-0 flex items-center justify-center bg-white z-50">
+          <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-gray-900 rounded-full" />
+        </div>
+      )}
+
       {/* 🟢 Etiquetas flotantes laterales derechas */}
       <div className="fixed right-3 bottom-24 flex flex-col gap-3 z-50">
         {/* WhatsApp */}
@@ -79,6 +117,7 @@ const Home = () => {
             src="/assets/images/Icon-1.png"
             alt="icon-christmas-1"
             className="w-10 sm:w-14 animate-bounce-slow"
+            onLoad={handleImageLoad} // Detectamos la carga de la imagen
           />
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-black">
@@ -89,6 +128,7 @@ const Home = () => {
             src="/assets/images/Icon-2.png"
             alt="icon-christmas-2"
             className="w-10 sm:w-14 animate-bounce-slow-delay"
+            onLoad={handleImageLoad} // Detectamos la carga de la imagen
           />
         </div>
 
@@ -106,6 +146,7 @@ const Home = () => {
                 src={img}
                 alt={`Promoción ${index + 1}`}
                 className="w-full h-[250px] sm:h-[400px] object-cover rounded-lg shadow-md"
+                onLoad={handleImageLoad} // Detectamos la carga de la imagen
               />
             </div>
           ))}
@@ -131,6 +172,7 @@ const Home = () => {
                 src={product.img}
                 alt={product.name}
                 className="w-full h-36 sm:h-48 object-cover"
+                onLoad={handleImageLoad} // Detectamos la carga de la imagen
               />
               <div className="p-2 sm:p-4 text-center">
                 <h3 className="font-semibold text-sm sm:text-lg truncate">
