@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { FaWhatsapp, FaInstagram, FaFacebookF } from "react-icons/fa";
@@ -142,7 +142,7 @@ const Home = () => {
           {filteredProducts.map((product) => (
             <div
               key={product.id}
-              className="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all"
+              className="relative border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all"
             >
               {/* Loader en cada imagen de producto */}
               {!loadedImages[`product-${product.id}`] && (
