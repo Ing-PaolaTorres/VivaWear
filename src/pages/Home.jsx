@@ -15,7 +15,7 @@ const carouselImages = [
 
 const Home = () => {
   const { category, subcategory } = useParams();
-  const [loading, setLoading] = useState(true);
+  const [loadedImages, setLoadedImages] = useState({});
 
   const filteredProducts = category
     ? products.filter(
@@ -36,46 +36,16 @@ const Home = () => {
     adaptiveHeight: true,
   };
 
-  // Función para cargar todas las imágenes y los estilos CSS
-  useEffect(() => {
-    const imgElements = document.querySelectorAll("img");
-    let loadedImages = 0;
-    const totalImages = imgElements.length;
-
-    // Función que se llama cuando cada imagen se carga
-    const imageLoaded = () => {
-      loadedImages += 1;
-      if (loadedImages === totalImages) {
-        setLoading(false); // Cuando todas las imágenes estén cargadas, ocultamos el loader
-      }
-    };
-
-    // Añadimos el evento 'load' para cada imagen
-    imgElements.forEach((img) => {
-      img.addEventListener("load", imageLoaded);
-      if (img.complete) {
-        // Si la imagen ya está cargada, ejecutamos 'imageLoaded' de inmediato
-        imageLoaded();
-      }
-    });
-
-    // Limpiamos el evento 'load' cuando el componente se desmonte
-    return () => {
-      imgElements.forEach((img) => {
-        img.removeEventListener("load", imageLoaded);
-      });
-    };
-  }, []); // Solo se ejecuta cuando el componente se monta
+  // Función que maneja el estado de carga de cada imagen
+  const handleImageLoad = (imgId) => {
+    setLoadedImages((prev) => ({
+      ...prev,
+      [imgId]: true, // Marca como cargada la imagen específica
+    }));
+  };
 
   return (
     <div className="relative flex flex-col items-center justify-center text-center bg-[#D5CFDF] min-h-screen pt-[55px] sm:pt-[65px]">
-      {/* Loading Screen */}
-      {loading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-white rounded-full" />
-        </div>
-      )}
-
       {/* 🟢 Etiquetas flotantes laterales derechas */}
       <div className="fixed right-3 bottom-24 flex flex-col gap-3 z-50">
         {/* WhatsApp */}
@@ -140,11 +110,19 @@ const Home = () => {
       <section className="w-full max-w-5xl mx-auto mb-8 sm:mb-12 px-2 sm:px-4">
         <Slider {...settings}>
           {carouselImages.map((img, index) => (
-            <div key={index} className="flex justify-center">
+            <div key={index} className="relative flex justify-center">
+              {/* Loader por imagen */}
+              {!loadedImages[`carousel-${index}`] && (
+                <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50 z-10">
+                  <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-gray-900 rounded-full" />
+                </div>
+              )}
+
               <img
                 src={img}
                 alt={`Promoción ${index + 1}`}
                 className="w-full h-[250px] sm:h-[400px] object-cover rounded-lg shadow-md"
+                onLoad={() => handleImageLoad(`carousel-${index}`)} // Cuando se carga la imagen, ocultamos el loader
               />
             </div>
           ))}
@@ -166,10 +144,18 @@ const Home = () => {
               key={product.id}
               className="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all"
             >
+              {/* Loader en cada imagen de producto */}
+              {!loadedImages[`product-${product.id}`] && (
+                <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50 z-10">
+                  <div className="spinner-border animate-spin inline-block w-16 h-16 border-4 border-t-4 border-gray-900 rounded-full" />
+                </div>
+              )}
+
               <img
                 src={product.img}
                 alt={product.name}
                 className="w-full h-36 sm:h-48 object-cover"
+                onLoad={() => handleImageLoad(`product-${product.id}`)} // Cuando se carga la imagen, ocultamos el loader
               />
               <div className="p-2 sm:p-4 text-center">
                 <h3 className="font-semibold text-sm sm:text-lg truncate">
