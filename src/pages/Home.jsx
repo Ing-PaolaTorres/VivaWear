@@ -14,7 +14,6 @@ const carouselImages = [
 ];
 
 const Home = () => {
-
   const { category, subcategory } = useParams();
   const [loading, setLoading] = useState(true);
 
@@ -37,37 +36,36 @@ const Home = () => {
     adaptiveHeight: true,
   };
 
-  // Función para detectar si las imágenes han cargado
-  const handleImageLoad = () => {
-    setLoading(false); // Cuando la última imagen carga, ocultamos el loader
-  };
-
   // Función para cargar todas las imágenes y los estilos CSS
   useEffect(() => {
     const imgElements = document.querySelectorAll("img");
     let loadedImages = 0;
     const totalImages = imgElements.length;
 
+    // Función que se llama cuando cada imagen se carga
     const imageLoaded = () => {
       loadedImages += 1;
       if (loadedImages === totalImages) {
-        setLoading(false);
+        setLoading(false); // Cuando todas las imágenes estén cargadas, ocultamos el loader
       }
     };
 
+    // Añadimos el evento 'load' para cada imagen
     imgElements.forEach((img) => {
       img.addEventListener("load", imageLoaded);
       if (img.complete) {
+        // Si la imagen ya está cargada, ejecutamos 'imageLoaded' de inmediato
         imageLoaded();
       }
     });
 
+    // Limpiamos el evento 'load' cuando el componente se desmonte
     return () => {
       imgElements.forEach((img) => {
         img.removeEventListener("load", imageLoaded);
       });
     };
-  }, []);
+  }, []); // Solo se ejecuta cuando el componente se monta
 
   return (
     <div className="relative flex flex-col items-center justify-center text-center bg-[#D5CFDF] min-h-screen pt-[55px] sm:pt-[65px]">
@@ -117,7 +115,6 @@ const Home = () => {
             src="/assets/images/Icon-1.png"
             alt="icon-christmas-1"
             className="w-10 sm:w-14 animate-bounce-slow"
-            onLoad={handleImageLoad} // Detectamos la carga de la imagen
           />
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-black">
@@ -128,12 +125,14 @@ const Home = () => {
             src="/assets/images/Icon-2.png"
             alt="icon-christmas-2"
             className="w-10 sm:w-14 animate-bounce-slow-delay"
-            onLoad={handleImageLoad} // Detectamos la carga de la imagen
           />
         </div>
 
         <p className="text-base sm:text-lg text-gray-700 max-w-md mx-auto mt-2">
-          Ropa tierna y cómoda para los más pequeños.
+          Diseñamos sonrisas en cada prenda.
+        </p>
+        <p className="text-base sm:text-lg text-gray-700 max-w-md mx-auto mt-2">
+          Personaliza, combina y crea el look perfecto.
         </p>
       </section>
 
@@ -146,7 +145,6 @@ const Home = () => {
                 src={img}
                 alt={`Promoción ${index + 1}`}
                 className="w-full h-[250px] sm:h-[400px] object-cover rounded-lg shadow-md"
-                onLoad={handleImageLoad} // Detectamos la carga de la imagen
               />
             </div>
           ))}
@@ -172,7 +170,6 @@ const Home = () => {
                 src={product.img}
                 alt={product.name}
                 className="w-full h-36 sm:h-48 object-cover"
-                onLoad={handleImageLoad} // Detectamos la carga de la imagen
               />
               <div className="p-2 sm:p-4 text-center">
                 <h3 className="font-semibold text-sm sm:text-lg truncate">
