@@ -1452,7 +1452,7 @@ export const products = [
   {
     id: 136,
     name: "T-Shirts Christmas",
-    price: "$83.000",
+    price: "$48.000",
     img: "/assets/images/product-140.jpeg",
     description:
       `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
@@ -1485,7 +1485,7 @@ export const products = [
   {
     id: 139,
     name: "T-Shirts Christmas",
-    price: "$83.000",
+    price: "$48.000",
     img: "/assets/images/product-143.jpeg",
     description:
       `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
@@ -1536,17 +1536,6 @@ export const products = [
        Personalízalas con el color, diseño o personaje que más te guste.`,
     category: "viva-christmas", 
     subcategory: "buzos",
-  },
-    {
-    id: 144,
-    name: "T-Shirts Christmas",
-    price: "$48.000",
-    img: "/assets/images/product-148.jpeg",
-    description:
-      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
-       Personalízalas con el color, diseño o personaje que más te guste.`,
-    category: "viva-christmas", 
-    subcategory: "t-shirts",
   },
   {
     id: 145,
