@@ -10,9 +10,9 @@ export const products = [
             Porque vestirse también es una forma de contar su historia.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
-            "/assets/images/product-1.jpeg",
-            "/assets/images/product-2.jpeg",
-            "/assets/images/colores-tallaje.jpeg",
+            "/images/product-1.jpeg",
+            "/images/product-2.jpeg",
+            "/images/colores-tallaje.jpeg",
         ],
     },
     {
@@ -26,9 +26,9 @@ export const products = [
             Porque vestirse también es una forma de contar su historia.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
-            "/assets/images/product-4.jpeg",
-            "/assets/images/product-3.jpeg",
-            "/assets/images/colores-tallaje.jpeg",
+            "/images/product-4.jpeg",
+            "/images/product-3.jpeg",
+            "/images/colores-tallaje.jpeg",
         ],
     },
     {
@@ -42,8 +42,8 @@ export const products = [
             Porque vestirse también es una forma de contar su historia.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
-            "/assets/images/product-7.jpeg",
-            "/assets/images/colores-tallaje.jpeg",
+            "/images/product-7.jpeg",
+            "/images/colores-tallaje.jpeg",
         ],
     },
     {
@@ -55,8 +55,8 @@ export const products = [
             Personalízalas con el color, diseño o personaje que más te guste.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
-            "/assets/images/product-8.jpeg",
-            "/assets/images/colores-tallaje.jpeg",
+            "/images/product-8.jpeg",
+            "/images/colores-tallaje.jpeg",
         ],
     },
     {
@@ -68,8 +68,8 @@ export const products = [
             Personalízalas con el color, diseño o personaje que más te guste.`,
         sizes: ["2-4", "6-8", "10-12", "14-16"],
         images: [
-            "/assets/images/product-9.jpeg",
-            "/assets/images/colores-tallaje.jpeg",
+            "/images/product-9.jpeg",
+            "/images/colores-tallaje.jpeg",
         ],
     }
 ];

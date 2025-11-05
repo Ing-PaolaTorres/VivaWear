@@ -8,9 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { products } from "../data/products";
 
 const carouselImages = [
-  "/assets/images/Banner-1.jpeg",
-  "/assets/images/Banner-2.jpeg",
-  "/assets/images/Banner-3.jpeg",
+  "/images/Banner-1.jpeg",
+  "/images/Banner-2.jpeg",
+  "/images/Banner-3.jpeg",
 ];
 
 const Home = () => {
@@ -82,7 +82,7 @@ const Home = () => {
       <section className="relative flex flex-col items-center justify-center px-4 py-6 sm:py-8 mt-6 sm:mt-6">
         <div className="flex items-center justify-center space-x-3 sm:space-x-6 relative z-10">
           <img
-            src="/assets/images/Icon-1.png"
+            src="/images/Icon-1.png"
             alt="icon-christmas-1"
             className="w-10 sm:w-14 animate-bounce-slow"
           />
@@ -92,7 +92,7 @@ const Home = () => {
           </h1>
 
           <img
-            src="/assets/images/Icon-2.png"
+            src="/images/Icon-2.png"
             alt="icon-christmas-2"
             className="w-10 sm:w-14 animate-bounce-slow-delay"
           />
