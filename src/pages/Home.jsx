@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="relative flex flex-col items-center justify-center text-center bg-[#D5CFDF] min-h-screen pt-[55px] sm:pt-[65px]">
       {/* 🟢 Etiquetas flotantes laterales derechas */}
-      <div className="fixed right-3 bottom-24 flex flex-col gap-3 z-50">
+      <div className="fixed right-3 bottom-4 flex flex-col gap-3 z-50">
         {/* WhatsApp */}
         <a
           href="https://wa.me/573043467419?text=¡Hola!%20Quiero%20más%20información%20sobre%20sus%20productos."

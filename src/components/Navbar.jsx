@@ -59,7 +59,14 @@ const Navbar = () => {
   const onCategoryChange = (categoryLabel) => {
     setSelectedCategory(categoryLabel); // Actualiza la categoría seleccionada
     setIsOpen(false);
-    setActiveCategory(null);
+    setActiveCategory(null); // Cierra las subcategorías al cambiar de categoría
+  };
+
+  // Maneja el clic en "Inicio" para cerrar las subcategorías
+  const handleHomeClick = () => {
+    setSelectedCategory(null); // Resetea la categoría seleccionada
+    setActiveCategory(null); // Cierra las subcategorías
+    setIsOpen(false); // Cierra el menú móvil
   };
 
   return (
@@ -74,7 +81,7 @@ const Navbar = () => {
           <Link
             to="/"
             className="flex items-center space-x-2 select-none"
-            onClick={() => setIsOpen(false)}
+            onClick={handleHomeClick} // Cierra las subcategorías al hacer clic en "Inicio"
           >
             <span className="text-2xl font-bold tracking-wide">VivaWear</span>
           </Link>
@@ -95,6 +102,7 @@ const Navbar = () => {
                 key={label}
                 to={to}
                 className={`flex items-center transition ${special ? "hover:text-[#F9C6C9] font-semibold" : "hover:text-[#07689F]"}`}
+                onClick={handleHomeClick} // Cierra las subcategorías al hacer clic en "Inicio"
               >
                 {icon}
                 {label}
@@ -132,7 +140,7 @@ const Navbar = () => {
 
         {/* Menú móvil desplegable */}
         <div
-          className={`md:hidden bg-[#D5CFDF] transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          className={`md:hidden bg-[#EAF8FB] transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
             }`}
         >
           <div className="flex flex-col space-y-4 py-4 px-6 text-center text-base font-medium border-t border-pink-200">
@@ -142,7 +150,7 @@ const Navbar = () => {
                 key={label}
                 to={to}
                 className={`flex items-center justify-center transition ${special ? "hover:text-[#F9C6C9] font-semibold" : "hover:text-[#07689F]"}`}
-                onClick={() => setIsOpen(false)}
+                onClick={handleHomeClick} // Cierra las subcategorías al hacer clic en "Inicio"
               >
                 {icon}
                 {label}
@@ -160,7 +168,7 @@ const Navbar = () => {
                   <FaChevronDown className={`transition-transform ${activeCategory === index ? 'rotate-180' : ''}`} />
                 </button>
                 {activeCategory === index && (
-                  <div className="mt-2 bg-[#D5CFDF] rounded-lg w-full">
+                  <div className="mt-2 bg-[#EAF8FB] rounded-lg w-full">
                     {category.subcategories.map((subcategory) => (
                       <Link
                         key={subcategory.label}
