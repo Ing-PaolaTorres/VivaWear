@@ -22,7 +22,7 @@ const Home = () => {
       (product) =>
         product.category === category && product.subcategory === subcategory
     )
-    : products;
+    : products.slice(0, 20);
 
   const settings = {
     dots: true,
