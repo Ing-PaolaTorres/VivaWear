@@ -81,10 +81,10 @@ const Navbar = () => {
 
           {/* Botón menú móvil */}
           <button
-            className="md:hidden text-white text-2xl focus:outline-none"
+            className="md:hidden text-black text-2xl focus:outline-none"
             onClick={toggleMenu}
           >
-            {isOpen ? <FaTimes /> : <FaBars />}
+            {isOpen ? <FaTimes className="text-black" /> : <FaBars className="text-black" />}
           </button>
 
           {/* Menú escritorio */}
@@ -132,7 +132,7 @@ const Navbar = () => {
 
         {/* Menú móvil desplegable */}
         <div
-          className={`md:hidden bg-[#D5CFDF] transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+          className={`md:hidden bg-[#D5CFDF] transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
             }`}
         >
           <div className="flex flex-col space-y-4 py-4 px-6 text-center text-base font-medium border-t border-pink-200">

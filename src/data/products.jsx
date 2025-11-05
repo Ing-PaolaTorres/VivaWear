@@ -1504,4 +1504,531 @@ export const products = [
     category: "viva-christmas", 
     subcategory: "buzos",
   },
+  {
+    id: 141,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-145.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 142,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-146.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 143,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-147.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+    {
+    id: 144,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-148.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 145,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-149.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 146,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-150.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 147,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-151.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 148,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-152.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },{
+    id: 149,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-153.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 150,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-154.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 151,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-155.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 152,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-156.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 153,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-157.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 154,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-158.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+   {
+    id: 155,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-159.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 156,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-160.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 157,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-161.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 158,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-162.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 159,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-163.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 160,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-164.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 161,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-165.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 162,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-166.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 163,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-167.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 164,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-168.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 165,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-169.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 166,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-170.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 167,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-171.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 168,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-172.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 169,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-173.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 170,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-174.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 171,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-175.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 172,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-176.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 173,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-177.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 174,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-178.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 175,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-179.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 176,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-180.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 177,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-181.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 178,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-182.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 179,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-183.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 180,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-184.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 181,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-185.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 182,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-186.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 183,
+    name: "Buzo Christmas",
+    price: "$85.000",
+    img: "/assets/images/product-187.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "buzos",
+  },
+  {
+    id: 184,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-188.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 185,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-189.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 186,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-190.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 187,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-191.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
+  {
+    id: 188,
+    name: "T-Shirts Christmas",
+    price: "$48.000",
+    img: "/assets/images/product-192.jpeg",
+    description:
+      `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
+       Personalízalas con el color, diseño o personaje que más te guste.`,
+    category: "viva-christmas", 
+    subcategory: "t-shirts",
+  },
 ];
