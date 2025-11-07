@@ -8,9 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { products } from "../data/products";
 
 const carouselImages = [
-  "https://drive.google.com/uc?export=view&id=1ZotcP5gi3i_xtHDaHqqdJevANN-WfnRn",
-  "https://drive.google.com/uc?export=view&id=1dEZRx2Tj1H3Rrx8Cg7U-tSa33_mfKf2Y",
-  "https://drive.google.com/uc?export=view&id=1AoxOs7vFJRDXToRGV2auCshX3CLX3gkJ",
+  "https://drive.usercontent.google.com/download?id=1ZotcP5gi3i_xtHDaHqqdJevANN-WfnRn&export=view&authuser=0",
+  "https://drive.usercontent.google.com/download?id=1dEZRx2Tj1H3Rrx8Cg7U-tSa33_mfKf2Y&export=view&authuser=0",
+  "https://drive.usercontent.google.com/download?id=1AoxOs7vFJRDXToRGV2auCshX3CLX3gkJ&export=view&authuser=0",
 ];
 
 const Home = () => {
