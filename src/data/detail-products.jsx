@@ -861,7 +861,7 @@ export const products = [
         price: "$140.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-75.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -873,7 +873,7 @@ export const products = [
         price: "$140.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-76.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -885,7 +885,7 @@ export const products = [
         price: "$140.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-77.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -897,7 +897,7 @@ export const products = [
         price: "$55.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-78.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -909,7 +909,7 @@ export const products = [
         price: "$160.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-79.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -921,7 +921,7 @@ export const products = [
         price: "$160.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-80.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -933,7 +933,7 @@ export const products = [
         price: "$450.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-81.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -945,7 +945,7 @@ export const products = [
         price: "$55.000",
         description: `Nuestros pantalones y shorts están elaborados en resistente tela burda de alta calidad, con siluetas modernas tipo bota ancha y jogger que combinan confort y diseño.
                   Personalízalos con el color y los detalles que más te gusten, creando una prenda única que refleja tu estilo y te acompaña en cada momento.`,
-        sizes: ["2-4", "6-8", "10-12", "14-16"],
+        sizes: ["S-M", "M-L"],
         images: [
             "/assets/images/product-82.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -957,7 +957,7 @@ export const products = [
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
                   Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-83.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -969,7 +969,7 @@ export const products = [
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura.
                   Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-84.jpeg",
             "/assets/images/colores-tallaje.jpeg"
@@ -980,7 +980,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-85.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -991,7 +991,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-86.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1002,7 +1002,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-87.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1013,7 +1013,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-88.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1024,7 +1024,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-89.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1035,7 +1035,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-90.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1046,7 +1046,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-91.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1057,7 +1057,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-92.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1068,7 +1068,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-93.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1079,7 +1079,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-94.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1090,7 +1090,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-95.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1101,7 +1101,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-96.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1112,7 +1112,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-97.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1123,7 +1123,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-98.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1134,7 +1134,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-99.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1145,7 +1145,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-100.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1167,7 +1167,7 @@ export const products = [
         name: "Baby",
         price: "$38.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-102.jpeg",
             "/assets/images/colores-tallaje.jpeg",
@@ -1211,7 +1211,7 @@ export const products = [
         name: "Pack x 5 Baby",
         price: "$175.000",
         description: `Elaborados en suave algodón de alta calidad que cuida la piel y acompaña cada aventura. Personalízalas con el color, diseño o personaje que más te guste.`,
-        sizes: ["0-3M", "3-6M", "6-9M", "9-12M"],
+        sizes: ["3-6", "8-10", "10-12"],
         images: [
             "/assets/images/product-106.jpeg",
             "/assets/images/colores-tallaje.jpeg",
