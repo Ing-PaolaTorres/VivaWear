@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { FaWhatsapp, FaInstagram, FaFacebookF } from "react-icons/fa";
+import FloatingSocialIcons from "../components/FloatingSocialIcons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -68,33 +68,7 @@ const Home = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center text-center bg-[#D5CFDF] min-h-screen pt-[55px] sm:pt-[65px]">
-      {/* Botones flotantes */}
-      <div className="fixed right-3 bottom-4 flex flex-col gap-3 z-50">
-        <a
-          href="https://wa.me/573043467419?text=¡Hola!%20Quiero%20más%20información%20sobre%20sus%20productos."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-[#25D366] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
-        >
-          <FaWhatsapp size={24} />
-        </a>
-        <a
-          href="https://www.instagram.com/vivawear_col"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
-        >
-          <FaInstagram size={24} />
-        </a>
-        <a
-          href="https://www.facebook.com/share/1BnVjxEAn1/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-[#1877F2] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
-        >
-          <FaFacebookF size={24} />
-        </a>
-      </div>
+      <FloatingSocialIcons />
 
       {/* Sección bienvenida */}
       <section className="relative flex flex-col items-center justify-center px-4 py-6 sm:py-8 mt-6 sm:mt-6">
