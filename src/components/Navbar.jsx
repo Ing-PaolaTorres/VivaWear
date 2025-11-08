@@ -25,7 +25,8 @@ const TopBanner = () => {
 // === Navbar ===
 const navLinks = [
   { label: "Inicio", to: "/" },
-  // { label: "Admin", to: "/admin/login", special: true },
+  { label: "Conócenos", to: "/conocenos" },
+  { label: "Contáctanos", to: "/contacto" },
 ];
 
 const Navbar = () => {
